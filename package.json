@@ -1,0 +1,26 @@
+{
+  "name": "simple-faq",
+  "version": "1.0.0",
+  "description": "Simple FAQ from devchallenges.io",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./css/tailwind/input.css -o ./css/styles.css --watch",
+    "prod": "npx tailwindcss -i ./css/tailwind/input.css -o ./css/styles.css --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ouzecky-josip/devchallenges-simple-faq.git"
+  },
+  "keywords": [
+    "devchallenges"
+  ],
+  "author": "Josip Oužecky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ouzecky-josip/devchallenges-simple-faq/issues"
+  },
+  "homepage": "https://github.com/ouzecky-josip/devchallenges-simple-faq#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.15"
+  }
+}
